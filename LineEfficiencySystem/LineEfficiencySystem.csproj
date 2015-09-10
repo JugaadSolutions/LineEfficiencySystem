@@ -171,6 +171,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\StationInputsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -181,6 +182,7 @@
     <Compile Include="Models\LESContext.cs" />
     <Compile Include="Models\Line.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Operator.cs" />
     <Compile Include="Models\References.cs" />
     <Compile Include="Models\ReferenceStation.cs" />
     <Compile Include="Models\Shift.cs" />
@@ -600,7 +602,7 @@
     <Content Include="Images\schneider.png" />
     <Content Include="Images\schneider_logo.jpg" />
     <Content Include="Scripts\app.js" />
-    <Content Include="Scripts\appScripts\addMachines.js" />
+    <Content Include="Scripts\appScripts\addStations.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -742,6 +744,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\Menu.cshtml" />
+    <Content Include="Views\StationInputs\Create.cshtml" />
+    <Content Include="Views\StationInputs\Delete.cshtml" />
+    <Content Include="Views\StationInputs\Details.cshtml" />
+    <Content Include="Views\StationInputs\Edit.cshtml" />
+    <Content Include="Views\StationInputs\Index.cshtml" />
+    <Content Include="Views\StationInputs\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

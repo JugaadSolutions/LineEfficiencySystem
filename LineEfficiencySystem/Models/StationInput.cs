@@ -17,6 +17,9 @@ namespace LineEfficiencySystem.Models
         public int StationId { get; set; }
         public virtual Station Station { get; set; }
 
+        public int OperatorId { get; set; }
+        public virtual Operator Operator { get; set; }
+
         public ICollection<Barrier> Barriers { get; set; }
     }
 }
