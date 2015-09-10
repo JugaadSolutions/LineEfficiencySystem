@@ -750,6 +750,8 @@
     <Content Include="Views\StationInputs\Edit.cshtml" />
     <Content Include="Views\StationInputs\Index.cshtml" />
     <Content Include="Views\StationInputs\Login.cshtml" />
+    <Content Include="Views\StationInputs\Status.cshtml" />
+    <Content Include="Views\Shared\StatusIdle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

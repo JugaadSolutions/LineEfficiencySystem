@@ -55,11 +55,25 @@
 
                         @RenderSection("Menu", required: false);
                     </div>
+                 
                 </div>
+   
                 <div class="col-md-10">
                     @RenderBody()
                 </div>
             }
+            @*else if (IsSectionDefined("StatusIdle"))
+            {
+                <div class="col-md-3">
+                    <div class="status1" style="margin:50% 0% 0% 50%">
+                        @RenderSection("StatusIdle", required: false);
+                    </div>
+                </div>
+    <div class="col-md-10">
+        @RenderBody()
+    </div>
+   
+            }*@
             else
             {
                 <div class="col-md-12" style="height:100%;">

@@ -2,7 +2,12 @@
     //debugger;
     var noOfStations = stations.length;
     $("#BaseContainerDiv").empty();
+    if (noOfStations < 4)
+    {
 
+        stationRows = 1;
+    }
+    else
     var stationRows = parseInt(noOfStations / 4, 10).toString();
 
 
