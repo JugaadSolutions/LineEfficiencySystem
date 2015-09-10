@@ -1,0 +1,50 @@
+﻿
+
+@section scripts{
+<script type="text/javascript">
+ 
+
+    </script>
+}
+
+<div class="container-fluid">
+    <div class="row" style="float:left;margin:1% 0% 0% 10%">
+        <div class="col-md-2">
+            <label id="lineName">Line:</label>
+        </div>
+        <div class="col-md-2">
+            <label id="lineName">LineName</label>
+        </div>
+        <div class="col-md-2">
+            <label id="lineName">Station:</label>
+        </div>
+        <div class="col-md-2">
+            <label id="lineName">StationName</label>
+        </div>
+        <div class="col-md-2">
+            <label id="lineName">Operator:</label>
+        </div>
+        <div class="col-md-2">
+            <label id="lineName">OperatorName</label>
+        </div>
+
+    </div>
+    <div class="row" style="height:100%;margin:10% 0% 0% 30%;width:100%;">
+    
+
+            @Html.Partial("StatusIdle")
+
+      </div>
+
+    <div class="row">
+        <div class="col-md-3" style="float:right;margin:25% -12% 1% 0%">
+            <button id="LogoutButton" class="btn btn-info btn-lg ">
+               Logout
+            </button>
+
+        </div>
+
+    </div>
+
+
+</div>

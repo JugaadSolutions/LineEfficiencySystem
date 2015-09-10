@@ -142,5 +142,9 @@ namespace LineEfficiencySystem.Controllers
             }
             base.Dispose(disposing);
         }
+        public ActionResult Status(string id)
+        {
+            return View();
+        }
     }
 }
