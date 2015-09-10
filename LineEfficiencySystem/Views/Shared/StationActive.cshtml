@@ -1,0 +1,57 @@
+﻿@section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var source = [
+    "Instant coffee",
+    "Irish coffee",
+    "Liqueur coffee"
+            ];
+            $('#Barriercombobox').jqxComboBox({ source: source, width: '200px', height: '25px', });
+        });
+       </script>
+}
+
+    <div class="Active1" style="border:green medium solid;padding:15px 13px 15px 15px;margin:5% 5% 10% -20%;width:90%;height:90%;border-radius:10px;">
+        <div class="row" style="margin-left:25%;width:100%;height:100%">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <lable id="Seriallbl">Serial Number:</lable>
+                    <input type="text" class="form-control" id="SerialTxt" style="width:100%">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <lable id="Referencelbl">Reference:</lable>
+                    <input type="text" class="form-control" id="ReferenceTxt" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-left:25%;width:100%;height:100%">
+            <div class="col-md-3">
+                <div class="form-group" style="margin:1% 70% 0% 80%">
+                    <button id="StopButton" class="btn btn-info btn-lg ">
+                        <span class="glyphicon glyphicon-stop"></span>
+                        Stop
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-left:25%;width:100%;height:100%">
+            <div class="col-md-3" style="margin-top:2%">
+                <div class="form-group">
+                    <lable id="Barrierlbl">Barrier:</lable>
+                   <div id="Barriercombobox">
+
+                   </div>
+                    <button id="BarrierButton" class="btn btn-info btn-lg" style="margin:-20% 100% 0% 110%">
+                        <span class="glyphicon glyphicon-hand-up"></span>
+                        Raise
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+</div>
+
+

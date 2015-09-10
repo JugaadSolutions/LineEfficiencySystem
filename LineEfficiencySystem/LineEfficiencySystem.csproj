@@ -601,6 +601,7 @@
     <Content Include="Images\bullet.png" />
     <Content Include="Images\schneider.png" />
     <Content Include="Images\schneider_logo.jpg" />
+    <Content Include="Images\starticon.jpeg" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\appScripts\addStations.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
@@ -752,6 +753,8 @@
     <Content Include="Views\StationInputs\Login.cshtml" />
     <Content Include="Views\StationInputs\Status.cshtml" />
     <Content Include="Views\Shared\StatusIdle.cshtml" />
+    <Content Include="Views\Shared\StationActive.cshtml" />
+    <Content Include="Views\Shared\StationPaused.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
